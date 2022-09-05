@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="icon" type "image/ico" href="condor.ico">
+</head>
+<body>
+    <form action="">
+
+        <label for="nombreC">Nombre completo</label>
+        <input type="text" id="nombreC" placeholder="Nombre completo" name="nombreC">
+        <br>
+        <label for="clave">Password</label>
+        <input type="password" id="clave" placeholder="Password" name="password">
+        <br>
+        <input type="submit" value="Aceptar">
+        <input type="reset" value="Cancelar">
+        <br>
+        <label for="comentarios">Comentarios</label>
+        <br>
+        <textarea name="comentarios" id="comentarios" cols="60" rows="10"></textarea>
+        <br>
+        <fieldset>
+            <legend>Seleccione su género:</legend>
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="masculino">
+            <br>
+            <label for="femenino">Famenino</label>
+            <input type="radio" id="femenino">
+        </fieldset>
+        
+        <br>
+        Seleccione los lenguajes que domina: <br>
+        <input type="checkbox" id="Java">Java<br>
+        <input type="checkbox" id="C++">C++<br>
+        <input type="checkbox" id="Python">Python<br>
+        Seleccione una ciudad:
+        <select name="ciudad" id="ciudad">
+            <option value="1">Cartagena</option>
+            <option value="2">Bogotá</option>
+            <option value="3">Cali</option>
+            <option value="4">Neiva</option>
+            <option value="5">Medellín</option>
+        </select><br>
+        <fieldset>
+            <legend>Ciudades</legend>
+            Seleccione una o varias ciudades (Ctrl para varias): <br>
+            <select name="ciudad" id="ciudad" size="2" multiple>
+                <option value="1">Cartagena</option>
+                <option value="2">Bogotá</option>
+                <option value="3">Cali</option>
+                <option value="4">Neiva</option>
+                <option value="5">Medellín</option>
+            </select>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Fruver</legend>
+            Selecciona una fruta o verdura: <br>
+            <select name="fruver" id="">
+                <optgroup label="Frutas">
+                    <option value="1">Manzana</option>
+                    <option value="2">Pera</option>
+                    <option value="3">Fresa</option>
+                </optgroup>
+                <optgroup label="Verduras" >
+                    <option value="1">Cebolla</option>
+                    <option value="2">Arvejas</option>
+                    <option value="3">Habichuelas</option>
+                </optgroup>
+    
+            </select>
+        </fieldset><br>
+        
+    </form>
+    
+</body>
+</html>
