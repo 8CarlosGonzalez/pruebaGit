@@ -1,0 +1,18 @@
+h1,h2 {
+    color:rgb(172, 20, 20); 
+    background-color:rgb(37, 33, 33);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;   
+    text-decoration: underline;     
+}
+body{
+    color:blueviolet;
+    background-color: rgb(109, 206, 174);
+    text-align: center;
+}
+.table{
+    color:rgb(208, 228, 245)
+}
